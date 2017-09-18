@@ -51,6 +51,7 @@
   }
   .carousel-inner > .item > img {
     margin: 0 auto;
+    height:750px;
   }
   </style>
 </head>
@@ -65,7 +66,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="pics/CV.pdf">Shatima Jones</a>
+      <a class="navbar-brand" href="../pics/CV.pdf">Shatima Jones</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -73,29 +74,54 @@
         <li><a href="../pics/CV.pdf">CV</a></li>
         <li><a href="../index.html">Home </a></li>
         <li><a href="../pages/research.html">Research</a></li>
-        <li><a href="../pages/teaching.html">Teaching</a></li>
-        <li><a href="../pages/events-posted.html">Events hosted</a></li>
+        
+        <li class="dropdown">
+                    
+        <a class = "btn dropdown-toggle menuNav" data-toggle="dropdown">Teaching</a>
+          <ul class="dropdown-menu">
+            <li><a class = "dropdown-item" href="../pages/detangling.html"> (De)Tangling the Business of Black Women's Hair </a></li>
+          </ul>
+        </li>
+        
         <li class="dropdown">
                     
         <a class = "btn dropdown-toggle menuNav" data-toggle="dropdown">Speaking Engagements</a>
           <ul class="dropdown-menu">
-            <li><a class = "dropdown-item" href="../pages/Bronx.html">The Bronx Documentary</a></li>
+            <li><a class = "dropdown-item" href="../pages/Bronx.html">The Bronx Documentary Center: Good Hair</a></li>
             <li><a class = "dropdown-item" href="../pages/graduation.html">NYU Black Graduation-May 2016</a></li>
             <li><a class = "dropdown-item" href="../pages/commentator.html">NYU Loving Key Commentator-Feb 2017 </a></li>
           </ul>
         </li>
+        
+        
+        <li class="dropdown">
+                    
+        <a class = "btn dropdown-toggle menuNav" data-toggle="dropdown">Events</a>
+          <ul class="dropdown-menu">
+            <li><a class = "dropdown-item" href="../pages/housing.html"> Insights Into Housing A Five Borough Ten Year Plan-April 2016 </a></li>
+            <li><a class = "dropdown-item" href="../pages/walker.html"> Madam CJ Walker-December 2015 </a></li>
+            <li><a class = "dropdown-item" href="../pages/books.html"> The Representation of African American Life in Children's Books-December 2016 </a></li>
+          </ul>
+        </li>
+        
       </ul>
     </div>
   </div>
 </nav>
 
+
 <!-- First Container -->
+  <div class="page-header">
+    <h1>Photo Credit </h1>
+  </div>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
             </ol>
             <!-- Wrapper for slides -->
             <h1 class ="bg-1" id = "galleryTitle">NYU Black Graduation-May 2016</h1>
@@ -104,21 +130,42 @@
                     <img id = "picture1" class = "carouselImage" src="../pics/picture1.jpeg" alt="picture1 ">
                     <div class="carousel-caption">
                         <h3 class = "cap"> </h3>
-                        <p></p>
+                        <p>Image Credit: Jordi's Freelance Photography</p>
                     </div>
                 </div>
                 <div class="item">
                     <img id = "picture2 " class = "carouselImage" src="../pics/picture2.jpeg" alt="picture2 ">
                     <div class="carousel-caption">
                         <h3 class = "cap"> </h3>
-                        <p></p>
+                        <p>Image Credit: Jordi's Freelance Photography</p>
+                    </div>
+                </div>
+                <!--<div class="item">-->
+                <!--    <img id = "picture3 " class = "carouselImage" src="../pics/picture3.jpg" alt="picture3 ">-->
+                <!--    <div class="carousel-caption">-->
+                <!--        <h3 class = "cap"> </h3>-->
+                <!--        <p></p>-->
+                <!--    </div>-->
+                <!--</div>-->
+                 <div class="item active">
+                    <img id = "graduation1" class = "carouselImage" src="../pics/graduation1.jpg" alt="graduation1 ">
+                    <div class="carousel-caption">
+                        <h3 class = "cap"> </h3>
+                        <p>Image Credit: Jordi's Freelance Photography</p>
                     </div>
                 </div>
                 <div class="item">
-                    <img id = "picture3 " class = "carouselImage" src="../pics/picture3.jpg" alt="picture3 ">
+                    <img id = "graduation2 " class = "carouselImage" src="../pics/graduation2.jpg" alt="graduation2 ">
                     <div class="carousel-caption">
                         <h3 class = "cap"> </h3>
-                        <p></p>
+                        <p>Image Credit: Jordi's Freelance Photography</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img id = "graduation3 " class = "carouselImage" src="../pics/graduation3.jpg" alt="graduation3 ">
+                    <div class="carousel-caption">
+                        <h3 class = "cap"> </h3>
+                        <p>Image Credit: Jordi's Freelance Photography</p>
                     </div>
                 </div>
             </div>

@@ -50,7 +50,9 @@
       color: #1abc9c !important;
   }
   .carousel-inner > .item > img {
-    margin: 0 auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
   }
   </style>
 </head>
@@ -65,7 +67,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="pics/CV.pdf">Shatima Jones</a>
+      <a class="navbar-brand" href="../pics/CV.pdf">Shatima Jones</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -73,17 +75,36 @@
         <li><a href="../pics/CV.pdf">CV</a></li>
         <li><a href="../index.html">Home </a></li>
         <li><a href="../pages/research.html">Research</a></li>
-        <li><a href="../pages/teaching.html">Teaching</a></li>
-        <li><a href="../pages/events-posted.html">Events hosted</a></li>
+        
+        <li class="dropdown">
+                    
+        <a class = "btn dropdown-toggle menuNav" data-toggle="dropdown">Teaching</a>
+          <ul class="dropdown-menu">
+            <li><a class = "dropdown-item" href="../pages/detangling.html"> (De)Tangling the Business of Black Women's Hair </a></li>
+          </ul>
+        </li>
+        
         <li class="dropdown">
                     
         <a class = "btn dropdown-toggle menuNav" data-toggle="dropdown">Speaking Engagements</a>
           <ul class="dropdown-menu">
-            <li><a class = "dropdown-item" href="../pages/Bronx.html">The Bronx Documentary</a></li>
+            <li><a class = "dropdown-item" href="../pages/Bronx.html">The Bronx Documentary Center: Good Hair</a></li>
             <li><a class = "dropdown-item" href="../pages/graduation.html">NYU Black Graduation-May 2016</a></li>
             <li><a class = "dropdown-item" href="../pages/commentator.html">NYU Loving Key Commentator-Feb 2017 </a></li>
           </ul>
         </li>
+        
+        
+        <li class="dropdown">
+                    
+        <a class = "btn dropdown-toggle menuNav" data-toggle="dropdown">Events</a>
+          <ul class="dropdown-menu">
+            <li><a class = "dropdown-item" href="../pages/housing.html"> Insights Into Housing A Five Borough Ten Year Plan-April 2016 </a></li>
+            <li><a class = "dropdown-item" href="../pages/walker.html"> Madam CJ Walker-December 2015 </a></li>
+            <li><a class = "dropdown-item" href="../pages/books.html"> The Representation of African American Life in Children's Books-December 2016 </a></li>
+          </ul>
+        </li>
+        
       </ul>
     </div>
   </div>
