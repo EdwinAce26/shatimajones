@@ -29,7 +29,7 @@
       color:white;
   }
   .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
+      background-color: #263238; /* Black Gray */
       color: #fff;
   }
   .container-fluid {
@@ -59,6 +59,13 @@
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     transform: rotate(90deg);
+  }
+  .carousel-inner > .item > img {
+     display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:600px;
+    margin:auto;
   }
   </style>
 </head>
@@ -119,7 +126,7 @@
 </nav>
 
 <!-- First Container -->
-
+<div class="bg-1">
  <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -170,7 +177,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-
+</div>
  <!--Footer -->
 <footer class="container-fluid bg-1 text-center" style="font-size:10px;">
 </footer>
